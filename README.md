@@ -33,36 +33,44 @@ The service is production-ready and supports both **local Node.js execution** an
 
 ## 📂 Project Structure
 
+```
 backend-webhook-service/
 ├── controllers/
 │   ├── userController.js
 │   └── messageController.js
+│
 ├── middleware/
 │   ├── authMiddleware.js
 │   └── webhookVerify.js
+│
 ├── models/
 │   ├── userModel.js
 │   └── contactModel.js
+│
 ├── routes/
 │   ├── userRoutes.js
 │   ├── messageRoutes.js
 │   └── webhookRoutes.js
+│
 ├── utils/
 │   ├── logger.js
 │   └── metrics.js
+│
 ├── health/
 │   ├── live.js
 │   └── ready.js
+│
 ├── data/
 │   └── app.db
+│
 ├── server.js
 ├── package.json
 ├── Dockerfile
 ├── docker-compose.yml
 ├── .env
 └── README.md
+```
 
----
 
 ## ⚙️ Environment Variables
 
