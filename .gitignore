@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# SQLite database files
+data/*.db
+hmac_test.js
+webhook_test.js
